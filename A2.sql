@@ -1,5 +1,5 @@
--- Create User table
-CREATE TABLE User (
+-- Create Users table
+CREATE TABLE Users (
     userId INT PRIMARY KEY AUTO_INCREMENT,
     Name VARCHAR(100) NOT NULL,
     Email VARCHAR(100) NOT NULL UNIQUE,
